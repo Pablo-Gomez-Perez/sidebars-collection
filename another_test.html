@@ -11,43 +11,47 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
-<body class="container-fluid p-1 m-0">
-    <section class="row">
-        <aside class="nav flex-nowrap">
-            <div class="bg-dark col-auto col-md-2 min-vh-100">
-                <div class="bg-dark p-2">
-                    <a href="Index.html" class="navbar-brand d-flex text-decoration-none align-items-center text-white">
-                        <span class="fs-4 fw-semibold d-none d-sm-inline">Other Test</span>
-                    </a>
-                    <ul class="nav nav-pills flex-column mt-4 text-white">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="Index.html" aria-current="page">
-                                <i class="fs-5 fa fa-house text-white me-1"></i><span class="fs-4 d-none d-sm-inline">Dashboard</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="other_emxample.html">
-                                <i class="fs-5 bi bi-amd text-white me-1"></i><span class="fs-4 d-none d-sm-inline">Other Example</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="another_test.html">
-                                <i class="fs-5 fa bi bi-bag-dash-fill text-white me-1"></i><span class="fs-4 d-none d-sm-inline">This Example</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="another_test.html">
-                                <i class="fs-5 fa fa-house text-white me-1"></i><span class="fs-4 d-none d-sm-inline">New Example</span>
-                            </a>
-                        </li>
-                    </ul>                    
-                </div>
-            </div>
-        </aside>
-        <article>
-
-        </article>
-    </section>
+<body>
+    <section class="container-fluid">
+        <div class="row flex-nowrap">
+            <aside class="col-auto col-md-3 col-lg-2 min-vh-100 bg-dark">
+                <a class="d-flex align-items-center text-decoration-none">
+                    <span class="fs-4 d-none d-sm-inline text-white">Side Menu</span>
+                </a>
+                <ul class="nav nav-pills justify-content-center flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Index.html">
+                            <i class="bi bi-house-door-fill text-white me-1"></i><span class="fs-5 d-none d-sm-inline">Home Example</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="other_emxample.html">
+                            <i class="bi bi-house-door-fill text-white me-1"></i><span class="fs-5 d-none d-sm-inline">Other example</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="another_test.html">
+                            <i class="bi bi-house-door-fill text-white me-1"></i><span class="fs-5 d-none d-sm-inline">Another Example</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <article class="col-auto col-md-9 col-lg-10 bg-light">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <h6 class="card-subtitle text-muted">Subtitle</h6>
+                    </div>
+                    <img src="holder.js/100x180/" alt="" />
+                    <div class="card-body">
+                        <p class="card-text">Text</p>
+                        <a href="#" class="card-link">Link 1</a>
+                        <a href="#" class="card-link">Link 2</a>
+                    </div>
+                </div>                                
+            </article>
+        </div>
+    </section>  
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
