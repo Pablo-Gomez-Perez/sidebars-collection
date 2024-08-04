@@ -1,0 +1,15 @@
+.sidebar {
+    height: 100vh; /* Full-height viewport */
+    overflow-y: auto; /* Scrollable contents if exceeded */
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 1rem;
+}
+
+/* Styling the navigation links */
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #000;
+}
